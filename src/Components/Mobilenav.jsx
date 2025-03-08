@@ -83,7 +83,7 @@ const MobileNavigation = () => {
                 </SheetClose>
               </motion.div>
             ))}
-          </motion.div>``
+          </motion.div>
           
           <motion.div 
             className="absolute bottom-8 w-full flex justify-center"

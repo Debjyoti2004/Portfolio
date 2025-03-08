@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&family=Manrope:wght@400;500;700&display=swap');
+@import "tailwindcss";
 
 @layer base {
   h1, h2, h3, h4, h5, h6 {
@@ -23,8 +23,9 @@
   .bg-primary {
     background-color: #1c1c22;
   }
+  
   .border-accent {
-    border-bottom: 2px solid #00ff99;
+    border-bottom: 2px solid #3b82f6;
     padding-bottom: 2px;
     background: transparent;
     display: inline-block;
@@ -35,14 +36,29 @@
   }
   
   .text-accent {
-    color: #00ff99;
+    color: #3b82f6;
   }
-
+ 
   .bg-accent {
-    background-color: #00ff99;
+    background-color: #3b82f6
   }
 
   .hover\:bg-accent-hover:hover {
-    background-color: #00e187;
+    background-color: #3b82f6;
   }
+  .button:hover {
+    box-shadow: 0 0 15px #3b82f6;
+  }
+}
+
+.h1 {
+  @apply text-[40px] xl:text-[70px] leading-[1.1] font-semibold;
+}
+
+.h2 {
+  @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+}
+
+.h3 {
+  @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
 }
