@@ -5,6 +5,8 @@ import Typewriter from 'typewriter-effect'
 import Socials from './Socials'
 import Photo from './Photo'
 import Stats from './Stats'
+import Experience from './Experience.jsx'
+import Tech from './Tech.jsx'
 const Homepage = () => {
     return (
         <section className='h-full'>
@@ -64,6 +66,9 @@ const Homepage = () => {
                 </div>
             </div>
             <Stats />
+            <Tech />
+            <Experience></Experience>
+            
         </section>
     )
 }
