@@ -15,7 +15,7 @@ const Container = styled.div`
   z-index: 1;
   align-items: center;
   padding: 10px;
-  margin-top: 2px;
+
 `;
 
 const Wrapper = styled.div`

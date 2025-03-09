@@ -9,14 +9,15 @@ const TechBall = ({ technology, index }) => {
   return (
     <motion.div 
       variants={fadeIn("up", "spring", index * 0.1, 0.75)}
-      className="w-26 h-26 flex flex-col items-center justify-center groupbg"
+      className="w-26 h-26 flex flex-col items-center justify-center group"
+
     >
       <div className="relative w-full h-full transition-all duration-300 group-hover:scale-110">
         <BallCanvas icon={technology.icon} />
       </div>
       <p className="text-white text-center mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        {technology.name}
-      </p>
+  {technology.name}
+</p>
     </motion.div>
   );
 };
