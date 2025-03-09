@@ -22,6 +22,7 @@ import {
     argocd,
     aws_in,
     juniper,
+    hashnode,
   } from "../assets";
   
   export const navLinks = [
@@ -120,31 +121,49 @@ import {
   
   const experiences = [
     {
-      title: "Juniper Virtual Internship",
-      company_name: "Juniper Networks",
-      icon: juniper,
-      iconBg: "#383E56",
+      id: 0,
+      img: juniper,
+      role: "Juniper Virtual Internship",
+      company: "Juniper",
       date: "Jul 2024 - Sep 2024",
-      points: [
-        "Gaining hands-on experience in cloud computing services, including deployment, networking, and security.",
-        "Exploring various cloud security practices to ensure secure and scalable application development.",
-        "Working with diverse cloud technologies to optimize performance and cost efficiency.",
-        "Collaborating with teams to integrate cloud solutions into web applications for seamless functionality.",
-      ],
+      desc: "During my internship, I explored various cloud computing services, including deployment, security, and networking, while working on scalable web applications. I also gained hands-on experience in integrating cloud solutions to enhance performance and ensure secure development.",
+      skills: [
+        "AWS",
+        "Cloud Security",
+        "DevOps",
+        "Docker",
+        "CI/CD Pipelines",
+        "Networking",
+        "Terraform",
+        "Linux",
+    ]    
     },
     {
-      title: "AWS Virtual Internship",
-      company_name: "AWS",
-      icon: aws_in,
-      iconBg: "#E6DEDD",
+      id: 1,
+      img: aws_in,
+      role: "AWS Virtual Internship",
+      company: "AWS.",
       date: "Oct 2024 - Dec 2024",
-      points: [
-        "Gaining hands-on experience with a wide range of AWS services to build scalable and secure cloud solutions.",
-        "Configuring hybrid storage and migrating data using AWS Storage Gateway and S3 File Gateway.",
-        "Designing serverless and decoupled architectures using AWS Lambda, Amazon SQS, and CloudFront for high availability.",
-        "Managing hybrid cloud storage solutions and secure data migration using AWS Storage Gateway and S3 File Gateway.",
-      ],
+      desc: "During my internship, I worked with AWS services like S3, EC2, Lambda, API Gateway, and CloudFront to build scalable cloud architectures. I implemented DevOps practices using Docker, Terraform, and Portainer for automation, containerization, and infrastructure management. Additionally, I optimized serverless applications and built decoupled systems using Amazon SQS and Nginx for efficient deployments.",
+      skills: [
+        "AWS",
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Serverless",
+        "Infrastructure as Code (IaC)"
+    ]
     },
+    {
+      id: 2,
+      img: hashnode,
+      role: "Content Writer",
+      company: "Hashnode",
+      date: "Jan 2025 - Present",
+      desc: " Writing and publishing technical blogs on DevOps, Cloud Computing, CI/CD, and Web Security. Sharing hands-on experience with AWS, Docker, Kubernetes, and cloud infrastructure. Engaging with the developer community through in-depth tutorials, best practices, and real-world implementations.",
+    },
+    
+    
   ];
   
   const testimonials = [

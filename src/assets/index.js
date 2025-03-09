@@ -29,6 +29,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import juniper from "./company/juniper.png";
 import aws_in from "./company/aws_in.png";
+import hashnode from "./company/hashnode.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -66,5 +67,6 @@ export {
   argocd,
   typescript,
   juniper,
-  aws_in
+  aws_in,
+  hashnode,
 };

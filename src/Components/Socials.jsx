@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin, FaGithub, FaXTwitter } from 'react-icons/fa6'
+import { FaLinkedin, FaGithub, FaXTwitter, FaHashnode } from 'react-icons/fa6'
 
 const socials = [
     {
@@ -13,6 +13,10 @@ const socials = [
     {
         icon: <FaXTwitter />,
         url: 'https://x.com/DebjyotiSh27921'
+    },
+    {
+        icon: <FaHashnode />,
+        url: 'https://debjyoti27.hashnode.dev'
     }
 ]
 const Socials = () => {
