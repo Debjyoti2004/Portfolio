@@ -23,6 +23,12 @@ import {
     aws_in,
     juniper,
     hashnode,
+    argobrain,
+    controllhub,
+    Roomchat,
+    cloudscale,
+    cicd_pipeline,
+    cloud_project,
   } from "../assets";
   
   export const navLinks = [
@@ -142,7 +148,7 @@ import {
       id: 1,
       img: aws_in,
       role: "AWS Virtual Internship",
-      company: "AWS.",
+      company: "AWS",
       date: "Oct 2024 - Dec 2024",
       desc: "During my internship, I worked with AWS services like S3, EC2, Lambda, API Gateway, and CloudFront to build scalable cloud architectures. I implemented DevOps practices using Docker, Terraform, and Portainer for automation, containerization, and infrastructure management. Additionally, I optimized serverless applications and built decoupled systems using Amazon SQS and Nginx for efficient deployments.",
       skills: [
@@ -195,68 +201,87 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+        name: "Agriculture Based Application",
+        description: "Agriculture AI Assistant – An intelligent agriculture-based application featuring Crop Recommendation, Disease Prediction, Agriculture Insights, and Weather Forecasting to help farmers make data-driven decisions for better yield and sustainability.",
+        category: "web development",
+        tags: [
+            { name: "React", color: "blue-text-gradient" },
+            { name: "MongoDB", color: "green-text-gradient" },
+            { name: "Express", color: "pink-text-gradient" },
+            { name: "Node.js", color: "pink-text-gradient" },
+            { name: "Tailwind CSS", color: "pink-text-gradient" },
+        ],
+        image: argobrain,
+        source_code_link: "https://github.com/Debjyoti2004/Agrobrain",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+        name: "Admin Dashboard",
+        description: "A feature-rich admin dashboard application built with React and Syncfusion components, offering comprehensive data visualization, business analytics, and project management capabilities.",
+        category: "web development",  
+        tags: [
+            { name: "React", color: "blue-text-gradient" },
+            { name: "JavaScript", color: "green-text-gradient" },
+            { name: "Tailwind CSS", color: "green-text-gradient" },
+            { name: "Syncfusion", color: "pink-text-gradient" },
+        ],
+        image: controllhub,
+        source_code_link: "https://github.com/Debjyoti2004/ControlHub",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "Chat Room",
+      description: "A chat room application built with React and Socket.io, offering real-time chat functionality and user authentication.",
+      category: "web development",
       tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+          { name: "React", color: "blue-text-gradient" },
+          { name: "Socket.io", color: "green-text-gradient" },
+          { name: "Tailwind CSS", color: "pink-text-gradient" },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
+      image: Roomchat,
+      source_code_link: "https://github.com/Debjyoti2004/NovaRoom",
+  },
+  {
+    name: "AWS Infrastructure",
+    description: "A robust, production-ready AWS infrastructure implementing auto-scaling across multiple availability zones with enhanced security and monitoring capabilities.",
+    category: "cloud computing",  
+    tags: [
+        { name: "EC2", color: "blue-text-gradient" },
+        { name: "ELB", color: "green-text-gradient" },
+        { name: "VPC", color: "pink-text-gradient" },
+        { name: "IAM", color: "pink-text-gradient" },
+        { name: "Internet Gateway", color: "pink-text-gradient" },
+
+    ],
+    image: cloudscale,
+    source_code_link: "https://github.com/Debjyoti2004/CloudScale-Monitor",
+},
+{
+  name: "CI/CD Pipeline",
+  description: "Designed and implemented a CI/CD pipeline on AWS using CodeCommit, CodeBuild, CodeDeploy, and CodePipeline for automated deployments. Integrated IAM, S3, and AWS compute services (EC2, ECS, Lambda) to ensure secure and scalable application delivery",
+  category: "devops",  
+  tags: [
+      { name: "AWS CodeBuild", color: "blue-text-gradient" },
+      { name: "AWS CodeDeploy", color: "green-text-gradient" },
+      { name: "AWS CodePipeline", color: "pink-text-gradient" },
+
+  ],
+  image: cicd_pipeline,
+  source_code_link: "https://github.com/Debjyoti2004/CloudScale-Monitor",
+},
+{
+  name: "Multi-Environment AWS Infrastructure",
+  description: "Designed a multi-environment AWS architecture (Dev, Stage, Prod) using Terraform for automated infrastructure provisioning. Integrated S3, RDS, and EC2 instances to ensure scalability, reliability, and seamless deployment across environments.",
+  category: "cloud computing",  
+  tags: [
+      { name: "terraform", color: "blue-text-gradient" },
+      { name: "AWS S3", color: "green-text-gradient" },
+      { name: "AWS DynamoDB", color: "pink-text-gradient" },
+      { name: "AWS EC2", color: "pink-text-gradient" },
+
+  ],
+  image: cloud_project,
+  source_code_link: "https://github.com/Debjyoti2004/terraform-iac-aws",
+}
+];
+
   
   export { services, technologies, experiences, testimonials, projects };

@@ -34,7 +34,12 @@ import hashnode from "./company/hashnode.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import argobrain from "./argobrain.png";
+import controllhub from "./controllhub.png";
+import Roomchat from "./Roomchat.png";
+import cloudscale from "./cloudscale.png";
+import cicd_pipeline from "./CICD_project1.png";
+import cloud_project from "./cloud_project.png";
 
 export {
   logo,
@@ -69,4 +74,10 @@ export {
   juniper,
   aws_in,
   hashnode,
+  argobrain,
+  controllhub,
+  Roomchat,
+  cloudscale,
+  cicd_pipeline,
+  cloud_project,
 };

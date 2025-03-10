@@ -7,6 +7,7 @@ import Photo from './Photo'
 import Stats from './Stats'
 import Experience from './Experience.jsx'
 import Tech from './Tech.jsx'
+import Projects from './Projects.jsx'
 const Homepage = () => {
     return (
         <section className='h-full'>
@@ -68,6 +69,7 @@ const Homepage = () => {
             <Stats />
             <Tech />
             <Experience></Experience>
+            <Projects></Projects>
             
         </section>
     )
